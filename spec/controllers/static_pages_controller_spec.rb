@@ -12,10 +12,10 @@ describe "Static Pages" do
       expect(page).to have_title("About | #{base_title}")
     end
   
-	 	it "should have the content 'Show will'" do
-  	  visit '/about'
-  	  expect(page).to have_content("Show will")
-  	end
+    it "should have the content 'Show will'" do
+      visit '/about'
+      expect(page).to have_content("Show will")
+    end
   end
 
   describe "Contacts page" do
